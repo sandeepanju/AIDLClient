@@ -4,11 +4,11 @@
     <queries>
         <package android:name="com.example.aidlserver" />
         <intent>
-            <action android:name="com.example.aidlserver.IMyAidlInterface"/>
+            <action android:name="com.example.aidlserver.IMyAidlInterface" />
         </intent>
     </queries>
 
-    <uses-permission android:name="com.example.permission.ACCESS"/>
+    <uses-permission android:name="com.example.permission.ACCESS" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

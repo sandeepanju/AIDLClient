@@ -13,7 +13,7 @@ import com.example.aidlserver.IAidlColourInterface
 
 
 class MainActivity : AppCompatActivity() {
-    private val TAG = "MainActivityyyy"
+    private val TAG = "ClientApp"
     var aidl: IAidlColourInterface? = null
 
     val mConnection = object : ServiceConnection {
@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             Log.d(TAG, "service connected")
 
             Log.d(
-                "TAGGGGGGGG",
+                TAG,
                 "onServiceConnected: ${
                     aidl?.transformation(
                         DummyUser(
